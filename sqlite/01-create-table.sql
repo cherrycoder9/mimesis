@@ -14,7 +14,8 @@ CREATE TABLE users (
 );
 
 -- 테이블 삭제
--- DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS users;
+
 -- 데이터 삽입
 INSERT INTO
     users (name, email, age)
