@@ -3,7 +3,7 @@
 #include <string>
 
 // g++ w01.cc -std=c++23 -Wextra -march=native -fstack-protector-strong
-using std::cout, std::u8string, std::println;
+using std::cout, std::u8string, std::print;
 
 int main(int argc, char const *argv[]) {
     // # C++20에서 추가된 UTF-8 문자 자료형
@@ -66,8 +66,8 @@ int main(int argc, char const *argv[]) {
 
     const char8_t *hello2 = u8"안녕!!";
     u8string name = u8"박보람";
-    println("{}", reinterpret_cast<const char *>(hello2));
-    println("{}", reinterpret_cast<const char *>(name.c_str()));
+    print("{}\n", reinterpret_cast<const char *>(hello2));
+    print("{}\n", reinterpret_cast<const char *>(name.c_str()));
 
     return 0;
 }
