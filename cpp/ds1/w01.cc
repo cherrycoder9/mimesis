@@ -3,7 +3,7 @@
 #include <string>
 
 // g++ w01.cc -std=c++23 -Wextra -march=native -fstack-protector-strong
-using std::cout, std::u8string, std::print;
+using namespace std;
 
 int main(int argc, char const *argv[]) {
     // # C++20에서 추가된 UTF-8 문자 자료형
