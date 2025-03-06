@@ -56,4 +56,3 @@ staticCounter();
 $undefinedVariable = null;
 // null 병합연산자 사용 
 echo "초기화되지 않은 변수값: " . ($undefinedVariable ?? "없음") . "\n";
-?>
