@@ -14,6 +14,9 @@
 
 using namespace std;
 
+// 만약 클래스가 절대로 상속되지 않을 것이라 확신한다면
+// final 키워드를 사용해 상속을 명시적으로 금지할 수 있음
+// class Animal final { ... };
 class Animal {
  public:
   // 가상 함수 speak 선언
