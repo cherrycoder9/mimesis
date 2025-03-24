@@ -35,3 +35,4 @@ echo ($strictEqual ? "참" : "거짓") . "\n"; // 거짓
 echo ($notEqual ? "참" : "거짓") . "\n"; // 거짓
 echo ($greaterThan ? "참" : "거짓") . "\n"; // 참 
 echo "$spaceship\n"; // -1
+
