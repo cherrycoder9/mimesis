@@ -1,6 +1,7 @@
 // noexcept 키워드
 // C++11부터 도입된 noexcept는 함수가 예외를 발생시키지 않음을 명시
 // 컴파일러가 코드를 최적화하는데 도움을 주며 예외 안전성을 보장함
+// std::exception을 상속받아 사용자 정의 예외 구현도 가능함
 
 #include <cstdlib>
 #include <iostream>
