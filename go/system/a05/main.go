@@ -5,6 +5,11 @@ import (
 	"sync"
 )
 
+// 아래 명령을 Go 런타임에 레이스 감지기를 사입해
+// 공유 메모리에서의 비정상적인 접근을 실시간으로 추적할 수 있음
+// go run -race main.go
+// go test -race
+
 func main() {
 	fmt.Println("Total Items Packed:", PackItems(0))
 }
